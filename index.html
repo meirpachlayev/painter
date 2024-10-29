@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="שירותי צביעת דירות מקצועיים ואיכותיים, עם צוות מנוסה ותוצאות מדהימות לכל חלל.">
+    
+  <meta name="keywords" content="צבעי, שיפוץ, דירות, צבע, טמבור, משי משי, טמבורטקס, סייד">
+  <meta name="author" content="מאיר פחלייב">
+    <meta name="description" content="שדרגו את הבית שלכם עם שירותי צביעת דירות מקצועיים! אנחנו מציעים צביעה באיכות גבוהה, תיקונים והתאמת גוונים אישית. התחייבות לעמידה בזמנים ולתוצאה מושלמת." />
+
     <title >צביעת דירות מקצועית - הבית בצבע חדש</title>
     
     <style>
@@ -134,15 +138,18 @@
         width: 64px;
         height: 64px;
         display: inline-block;
-        animation: spin-s 3s infinite linear;
+        animation: bounce 2s ease-in-out infinite;;
     }
     
     /*SVG הגדרת הנפשה */
-    @keyframes spin-s {
-        0% { transform: rotate(-20deg); }
-        50% { transform: rotate(20deg); } /* סיבוב קל */
-        100% { transform: rotate(-20deg); }
+    @keyframes bounce {
+    0%, 100% { 
+        transform: translateY(0); /* מצב התחלתי וסופי - במיקום המקורי */
     }
+    50% { 
+        transform: translateY(-10px); /* באמצע האנימציה - עולה למעלה */
+    }
+}
 
 
     /*אפקט הקלדה*/
