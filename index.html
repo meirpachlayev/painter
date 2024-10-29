@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="שירותי צביעת דירות מקצועיים ואיכותיים, עם צוות מנוסה ותוצאות מדהימות לכל חלל.">
+    <title >צביעת דירות מקצועית - הבית בצבע חדש</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header, section, footer {
+            padding: 50px;
+            text-align: center;
+            align-items: center;
+        }
+        .section-content{
+            max-width: 550px;
+            margin: 0 auto; 
+        }
+        
+        .lg-section-content{
+            max-width: 1000px;
+            margin: 0 auto; 
+        }
+        header {
+            background-color: #f7e8d1;
+            color: #444;
+            background-image: url('./רקע\ דירה\ צבע.jpg'); /* הוספת תמונה לרקע */
+            background-size: cover; /* מתאם את התמונה לגובה ורוחב של הקטע */
+            background-position: center; /* ממקם את התמונה במרכז */
+       padding-bottom: 10px;
+        }
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #d48806;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #bf6e04;
+        }
+        #about {
+            background-color: #fffbf6;
+        }
+        #services {
+            background-color: #fff2e0;
+        }
+        #why-us {
+            background-color: #f7e8d1;
+        }
+        #contact {
+            background-color: #fdebd3;
+        }
+        h2 {
+            color: #c07d00;
+        }
+        .service-box {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px;
+            background-color: #fffaf2;
+        }
+        .service-box {
+            background-color: #fffaf2; /* צבע רקע ראשוני */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל קל בהתחלה */
+            transition: all 0.3s ease; /* הגדרת זמן האנימציה */
+        }
+
+        .service-box:hover {
+            background-color: #fffaf1; /* שינוי צבע רקע במעבר עכבר */
+            transform: scale(1.05); /* הגדלה קלה */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* צל חזק יותר */
+        }
+        footer {
+            background-color: #d4b59e;
+            color: white;
+            padding: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #d48806;
+            color: white;
+            border: none;
+        }
+        form button:hover {
+            background-color: #bf6e04;
+        }
+        .features-list {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0 50 0 50;
+        }
+        /* מעבר לתצוגה אנכית במסכים קטנים */
+        @media (max-width: 768px) {
+            .features-list {
+                flex-direction: column; /* מעבר לתצוגה מאונכת */
+                gap: 10px;
+            }
+        }
+        .features-list li {
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .features-list li::before {
+            content: "✔ "; /* A checkmark icon */
+            color: #d48806; /* Set the color of the icon */
+        }
+
+          /* עיצוב SVG */
+    .icon-container {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        animation: spin-s 3s infinite linear;
+    }
+    
+    /*SVG הגדרת הנפשה */
+    @keyframes spin-s {
+        0% { transform: rotate(-20deg); }
+        50% { transform: rotate(20deg); } /* סיבוב קל */
+        100% { transform: rotate(-20deg); }
+    }
+
+
+    /*אפקט הקלדה*/
+/* סגנון בסיסי לכותרת */
+.typewriter {
+    font-size: 2rem;
+    color: #d48806; /* צבע הטקסט */
+    overflow: hidden; /* מסתיר את הטקסט מעבר לרוחב */
+    white-space: nowrap; /* מונע גלישה לשורות נוסx*/
+    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite; /* שילוב של שתי אנימציות */
+    text-align: center; /* ממרכז את הכותרת */
+    direction: rtl; /* מתחיל את האפקט משמאל לימין */
+    margin: 0 auto; /* ממרכז את האלמנט */
+    width: fit-content;
+}
+
+/* אנימציה לכתיבה */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class = "section-content">
+            <!-- אייקון SVG עם קוד ההנפשה -->
+<div class="icon-container">
+    <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+        <g id="SVGRepo_iconCarrier">
+            <path d="M27.995 5.338v-1.654c0-1.442-1.169-2.611-2.611-2.611h-17.167c-1.442 0-2.61 1.169-2.61 2.611v1.654h-0.489c-1.204 0-2.178 0.976-2.178 2.179v3.649c0 1.203 0.975 2.179 2.178 2.179l10.037-0.003c0.613 0 1.113 0.499 1.113 1.113v3.679h-2.131v12.795h5.331v-12.795h-2.134v-3.679c0-1.203-0.976-2.179-2.179-2.179h-1.32v0.003h-8.716c-0.613 0-1.112-0.499-1.112-1.113v-3.649c0-0.613 0.499-1.113 1.112-1.113h0.489v1.654c0 1.442 1.168 2.611 2.61 2.611h17.167c1.442 0 2.611-1.169 2.611-2.611v-1.654h1.066v-1.066h-1.066zM18.4 29.861h-3.199v-10.663h3.199v10.663zM26.929 8.058c0 0.852-0.694 1.545-1.545 1.545h-17.167c-0.852 0-1.544-0.693-1.544-1.545v-4.374c0-0.852 0.692-1.545 1.544-1.545h17.167c0.852 0 1.545 0.693 1.545 1.545v4.374z" fill="#000000"> </path>
+        </g>
+    </svg>
+</div>
+
+        <h1 class="typewriter">צביעת דירות מקצועית</h1>
+        <p>הפכו את הדירה שלכם לחלל מעוצב וחדשני עם צבע איכותי וגימור ללא פשרות</p>
+        <br/>
+        <a href="#contact" class="cta-button">לשיחת ייעוץ וקבלת הצעת מחיר</a>
+        <br/>
+
+<div>
+    <br/>
+    <br/>
+<b>מאיר 050-6690169</b>
+</div>
+
+<ul class="features-list">
+            <li>עבודה יהודית</li>
+            <li>אמינות</li>
+            <li>מקצועיות</li>
+        </ul>
+</div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class = "section-content">
+        <h2>מי אנחנו?</h2>
+        <p> אנו מציעים שירותי צביעה לדירות ובתים פרטיים ברמה הגבוהה ביותר, עם שימוש בצבעים עמידים ומותאמים לסביבה הביתית. הצוות שלנו מורכב מצבעים מנוסים ואדיבים, הדואגים לכל לקוח לשירות אישי ומקצועי.</p>
+    </div></section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class = "lg-section-content">
+        <h2>מה אנחנו מציעים?</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div class="service-box">
+                <h3>צביעת קירות פנים</h3>
+                <p>התאמת הצבע לטעמכם, עם ביצוע ללא פשרות.</p>
+            </div>
+            <div class="service-box">
+                <h3>צביעת תקרות ודלתות</h3>
+                <p>גימור חלק ומדויק לכל פרט, לחוויית מגורים ייחודית.</p>
+            </div>
+            <div class="service-box">
+                <h3>תיקוני קירות לפני צביעה</h3>
+                <p>תיקוני סדקים, כך שהצביעה החדשה תיראה מושלמת.</p>
+            </div>
+            <div class="service-box">
+                <h3>צביעה בגוונים מיוחדים וטקסטורות</h3>
+                <p>התאמה אישית לסגנון שלכם, למראה ייחודי.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us">
+        <div class = "section-content">
+        <h2>למה לבחור בנו?</h2>
+        <p>איכות עבודה בלתי מתפשרת – עם גימור מקצועי ועמידות לאורך זמן.</p>
+        <p>שירות מותאם אישית – ליווי אישי בכל שלב, מייעוץ בצבע ועד לסיום העבודה.</p>
+        <p>התחייבות לעמידה בזמנים – הפרויקט מתבצע במועדים שנוחים לכם וללא עיכובים מיותרים.</p>
+        <p>מחירים הוגנים ושקיפות מלאה – בלי הפתעות, עם שקיפות מלאה לגבי כל שלב וכל עלות.</p>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class = "section-content">
+        <h2>התקשרו עכשיו לקבלת ייעוץ חינם!</h2>
+        <p>התחלתם לחשוב על שינוי בצבע? אנחנו כאן כדי לייעץ ולענות על כל שאלה!</p>
+        <p><strong>התקשרו למאיר-050-6690169 או השאירו את פרטיכם כאן בטופס ליצירת קשר, ונחזור אליכם בהקדם.</strong></p>
+        <div style="width:100%;height:500px;" data-fillout-id="qxJfgDJHnUus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class = "section-content">
+        <p>© כל הזכויות שמורות - 
+            <a>אוטומקס</a>
+        </p>
+        </div>
+    </footer>
+
+</body>
+</html>
