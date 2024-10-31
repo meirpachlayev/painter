@@ -158,3 +158,10 @@ width: fit-content;
 from { width: 0; }
 to { width: 100%; }
 }
+
+
+.small{
+    font-size: 1px;
+    color: #fff2e0;
+
+}
